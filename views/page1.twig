@@ -3,4 +3,7 @@
 {% block body %}
   <h1>{{title}}</h1>
   <p>Bienvenue {{nom}}</p>
+  {% for pers in tab %}
+      <p>{{pers}}</p>
+  {% endfor %}
 {% endblock %}

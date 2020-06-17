@@ -14,7 +14,9 @@ router.get('/toto/:id', function(req, res, next) {
   console.log(id)
   res.render('page1', { 
     title: 'tutu',
-  "nom":tab[id]+id });
+    "nom":tab[id]+id ,
+    tab :tab
+});
 });
 
 module.exports = router;
