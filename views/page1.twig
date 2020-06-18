@@ -6,4 +6,9 @@
   {% for pers in tab %}
       <p>{{pers}}</p>
   {% endfor %}
+  <form method="post" action="/test">
+    p1=<input type="text" name="p1">
+    <input type="submit" value="post">
+  </form>
+  <a href="/">home</a>
 {% endblock %}
